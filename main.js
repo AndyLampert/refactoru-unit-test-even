@@ -12,17 +12,15 @@ var evenArray = function(inputArray) {
 
 	for(var i=0; i<inputArray.length; i++) {
 		if(inputArray[i] % 2 === 0){
-			// outputArray.push([i]);
-			outputArray.push(i);
+			// i is the current index
+			// inputArray[i] is value at the current index
+			// pushes the actual value of whatever was % by 2
+			outputArray.push(inputArray[i]);
 		}
 	}
-	console.log('asdf');
 	return outputArray;
 }
-
 
 // for loop that checks myArray's length
 // if the array value is even (% 2 === 0)
 // then add that value to outputArray 
-
-
